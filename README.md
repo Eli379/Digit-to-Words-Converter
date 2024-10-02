@@ -80,3 +80,7 @@ The core logic of converting the numbers to words is encapsulated within three m
 ### Other Possible Approaches
 - **Third-Party Libraries**: Using libraries specifically for number-to-word conversion would be a good option, but assuming this is a tech test, it wouldn't be the best approach to showcase my coding and problem-solving skills.
 - **Direct String Parsing**: Directly manipulating the strings could be an option to construct the words for each number. This method would be awfully tedious, slow, and prone to errors. It lacks modularity and would be difficult to maintain and scale.
+
+# Dev Notes
+The html page does not allow letters which the API can handle (such as entering 1.2M). <br>
+Can be changed if needed (just remove the if and else statement @ line 54)
