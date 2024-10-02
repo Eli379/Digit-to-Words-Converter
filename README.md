@@ -3,17 +3,13 @@
 This project provides an API that converts numbers to words. It includes an HTML web user interface (`TechTest - Front End.html`) to allow the routine to be tested interactively.
 
 ## Table of Contents
-- [Overview](#overview)
 - [Setup Instructions](#setup-instructions)
 - [Running the Application](#running-the-application)
 - [Testing](#testing)
 
-## Overview
-This repository includes all necessary files, including source code, test harnesses, configuration data, and a test plan. The server-side implementation is done in C#.
-
 ### Building the Solution
 1. Open the solution file `TechOneTest.sln` in Visual Studio.
-2. Restore the NuGet packages.
+2. Restore the NuGet packages (Utilises Ms.Test nuget package for testing).
 3. Build the solution.
 
 ## Running the Application
